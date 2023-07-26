@@ -156,7 +156,7 @@ const jwtSecretKey = '70e0e03ff4bcd8e8dd79f4020e7410720a709193c64bdb3a72e37d3f7f
 //   }, [navigate]);
   
      return (
-
+<div>
 <body id="page-top">
     <div id="wrapper">
     <ul className="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -228,7 +228,7 @@ const jwtSecretKey = '70e0e03ff4bcd8e8dd79f4020e7410720a709193c64bdb3a72e37d3f7f
                     <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                         aria-expanded="true" aria-controls="collapsePages">
                         <i className="fas fa-fw fa-folder"></i>
-                        <span>Pages</span>
+                        <span>Activate</span>
                     </a>
                     <div id="collapsePages" className="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                         <div className="bg-white py-2 collapse-inner rounded">
@@ -247,13 +247,13 @@ const jwtSecretKey = '70e0e03ff4bcd8e8dd79f4020e7410720a709193c64bdb3a72e37d3f7f
                 <li className="nav-item">
                     <a className="nav-link" href="charts.html">
                         <i className="fas fa-fw fa-chart-area"></i>
-                        <span>Charts</span></a>
+                        <span>Report</span></a>
                 </li>
 
                 <li className="nav-item">
                     <a className="nav-link" href="tables.html">
                         <i className="fas fa-fw fa-table"></i>
-                        <span>Tables</span></a>
+                        <span>My School</span></a>
                 </li>
 
             
@@ -266,8 +266,8 @@ const jwtSecretKey = '70e0e03ff4bcd8e8dd79f4020e7410720a709193c64bdb3a72e37d3f7f
                 
                 <div className="sidebar-card d-none d-lg-flex">
                     {/* <img className="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="..."> */}
-                    <p className="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
-                    <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
+                    <p className="text-center mb-2"><strong>Subscribe</strong> Click here to pay all!</p>
+                    <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Pay All!</a>
                 </div>
 
             </ul>
@@ -447,7 +447,7 @@ const jwtSecretKey = '70e0e03ff4bcd8e8dd79f4020e7410720a709193c64bdb3a72e37d3f7f
                             <li className="nav-item dropdown no-arrow">
                                 <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                    <span className="mr-2 d-none d-lg-inline text-gray-600 small">Fanker John</span>
                                     {/* <img className="img-profile rounded-circle"
                                         src="img/undraw_profile.svg"> */}
                                 </a>
@@ -570,7 +570,7 @@ const jwtSecretKey = '70e0e03ff4bcd8e8dd79f4020e7410720a709193c64bdb3a72e37d3f7f
 {/* <div className="row">
   <div className="container-fluid">
     <div> */}
-        <body className="bg-gradient-primary">
+        
                     <div className="container">
                     <div className="card o-hidden border-0 shadow-lg my-5">
                         <div className="card-body p-0">
@@ -722,10 +722,10 @@ const jwtSecretKey = '70e0e03ff4bcd8e8dd79f4020e7410720a709193c64bdb3a72e37d3f7f
                         </div>
                     </div>
                     </div>
-                </body>
-                </div>
-            </div>
-            </div>
+                
+            
+            
+            
             
             <footer className="sticky-footer bg-white">
             <div className="container my-auto">
@@ -738,6 +738,10 @@ const jwtSecretKey = '70e0e03ff4bcd8e8dd79f4020e7410720a709193c64bdb3a72e37d3f7f
             <i className="fas fa-angle-up"></i>
             </a>
         </div>
+        </div>
+        </div>
+        </div>
         </body>
+        </div>
 );
 };

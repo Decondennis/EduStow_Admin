@@ -148,8 +148,8 @@ const NewsletterAdmin = () => {
                 
                 <div className="sidebar-card d-none d-lg-flex">
                     {/* <img className="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="..."> */}
-                    <p className="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
-                    <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
+                    <p className="text-center mb-2"><strong>Subscribe</strong>Click here to pay all!</p>
+                    <a className="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Pay All!</a>
                 </div>
 
             </ul>
@@ -329,7 +329,7 @@ const NewsletterAdmin = () => {
                             <li className="nav-item dropdown no-arrow">
                                 <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                    <span className="mr-2 d-none d-lg-inline text-gray-600 small">Bridget Dennis</span>
                                     {/* <img className="img-profile rounded-circle"
                                         src="img/undraw_profile.svg"> */}
                                 </a>
